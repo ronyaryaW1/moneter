@@ -1,0 +1,59 @@
+{
+  "_from": "create-bundle",
+  "_id": "create-bundle@1.0.2",
+  "_inBundle": false,
+  "_integrity": "sha512-447Dsdoj62rU9qqHiTIdFzc97ZzvGkbYGEdswdrWlUfBhBVhH4yDWad7YfHrJ9KV4Z07PTgonsz021uNZcJ3BQ==",
+  "_location": "/create-bundle",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "create-bundle",
+    "name": "create-bundle",
+    "escapedName": "create-bundle",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/create-bundle/-/create-bundle-1.0.2.tgz",
+  "_shasum": "f1d7a1f54efb906a03eb559ed8d4c35a20016da8",
+  "_spec": "create-bundle",
+  "_where": "D:\\sinaugratis\\pak ic\\emoneter",
+  "author": {
+    "name": "Jay Baker",
+    "email": "logikal@gmail.com"
+  },
+  "bin": {
+    "create-bundle": "./bin/index.js"
+  },
+  "bugs": {
+    "url": "https://github.com/logikaljay/create-bundle/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Create a zip bundle from files generated in your project",
+  "devDependencies": {
+    "code": "^4.1.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.5.0"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "homepage": "https://github.com/logikaljay/create-bundle#readme",
+  "license": "ISC",
+  "main": "index.js",
+  "name": "create-bundle",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/logikaljay/create-bundle.git"
+  },
+  "scripts": {
+    "test": "istanbul cover _mocha -- -R spec"
+  },
+  "version": "1.0.2"
+}
